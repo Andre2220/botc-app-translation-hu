@@ -5,7 +5,7 @@
             "patreon-demon": "Démon rang",
             "patreon-minion": "Követő rang",
             "patreon-townsfolk": "Városi rang",
-            "special-free": "Ingyenes",
+            "special-free": "Tiszteletbeli",
             "special-moderator": "Moderátor",
             "special-tpi": "TPI csapat"
         },
@@ -698,7 +698,7 @@
             "selected_players": "Kiválasztott játékosok",
             "sent": "Küldött",
             "storyteller": "Mesélő|Mesélők",
-            "title": "Felébresztés {0}",
+            "title": "{0} felébresztése",
             "title_character": "Válassz egy karaktert",
             "title_player": "Válassz egy játékost",
             "title_spec": "A Mesélő felébresztette {0}:",
@@ -746,7 +746,7 @@
             "offline": "Offline",
             "st_requested": "Storyteller Requested",
             "type_player": "Játékos|{n} Játékos",
-            "type_spectator": "Megfiygelő|{n} Megfigyelő",
+            "type_spectator": "Megfigyelő|{n} Megfigyelő",
             "type_storyteller": "Mesélő|{n} Mesélő"
         },
         "verification": {
