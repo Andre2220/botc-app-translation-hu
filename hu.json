@@ -3,11 +3,11 @@
     "account-levels": {
       "free": "Ingyenes",
       "patreon-demon": "Démon rang",
-      "patreon-minion": "Követő rang",
+      "patreon-minion": "Csatlós rang",
       "patreon-townsfolk": "Városi rang",
-      "special-free": "Ingyenes",
+      "special-free": "Tiszteletbeli",
       "special-moderator": "Moderátor",
-      "special-tpi": "TPI csapat"
+      "special-tpi": "TPI munkatárs"
     },
     "botc_online": "BOTC Online",
     "button_allow": "Engedélyez",
@@ -23,7 +23,7 @@
     "cosmetics": {
       "avatars": "Avatár|Avatárok",
       "borders": "Névtábla|Névtáblák",
-      "emotes": ""
+      "emotes": "Kéz|Kezek"
     },
     "moderation_policy": "Moderálási irányelvek",
     "privacy_policy": "Adatvédelmi irányelvek",
@@ -88,16 +88,16 @@
     "phases": {
       "day": "Első nap|{n}. nap",
       "end": "Játékok között",
-      "first_night": "Első éjjel",
+      "first_night": "Első éjszaka",
       "grim_reveal": "Grimoire felfedése",
-      "night": "Első éjjel|{n}. éjjel",
-      "other_nights": "További éjjelek",
+      "night": "Első éjszaka|{n}. éjszaka",
+      "other_nights": "További éjszakák",
       "start": "1. éjszaka előkészítése"
     },
     "player": "Játékos {0}",
     "players": "Játékosok",
     "seat": "Szék {0}",
-    "shroud": "Gyászszalag",
+    "shroud": "Halottjelölő",
     "storyteller": "Mesélő {0}",
     "storytellers": "a Mesélők",
     "token": "Jelző",
@@ -324,7 +324,7 @@
       "error_size": "Fájlméret túl nagy",
       "error_size_text": "",
       "homebrew_description": "",
-      "homebrew_title": "Egyedi képek kikapcsolva",
+      "homebrew_title": "Egyéni képek kikapcsolva",
       "monthly_script": "A hónap szkriptje:",
       "theme": "Téma:",
       "theme_generic": "Általános téma:",
@@ -360,7 +360,7 @@
       "tab_blocked": "Tiltott felhasználók ({0})",
       "tab_friends": "Barátok ({0})",
       "tab_requests": "Függő kérések ({0})",
-      "title": "Barátlisták"
+      "title": "Barátlista"
     },
     "npc": {
       "title": "Nem játékos karakter hozzáadása"
@@ -426,22 +426,22 @@
       "tab_character": "",
       "tab_traveller": "",
       "title": "",
-      "title_alignment_e": "",
-      "title_alignment_g": "",
-      "title_alignment_r": "",
+      "title_alignment_e": "Gonosz",
+      "title_alignment_g": "Jó",
+      "title_alignment_r": "normál",
       "title_target": "",
-      "title_type_bluff": "",
-      "title_type_character": ""
+      "title_type_bluff": "blöff",
+      "title_type_character": "karakter"
     },
     "roles": {
-      "button_distribute": "",
-      "button_gardener": "",
-      "button_shuffle": "",
-      "button_sort": "",
-      "clear": "",
-      "title": "",
-      "title_players": "",
-      "warning": ""
+      "button_distribute": "{0} karakter kiküldése",
+      "button_gardener": "{0} karakter kiosztása",
+      "button_shuffle": "Keverés",
+      "button_sort": "Rendezés",
+      "clear": "Kiválasztott karakterek törlése",
+      "title": "Válassz karaktereket {0} számára",
+      "title_players": "játékos",
+      "warning": "Figyelem: olyan karakterek vannak kiválasztva amelyek módosítják a játék alapbeállításait. Ezek hatását neked kell figyelembe venned."
     },
     "rules": {
       "intro_part01": "",
@@ -465,25 +465,25 @@
       "intro_part19": "",
       "intro_part20": "",
       "intro_part21": "",
-      "tab1": "",
-      "tab2": "",
-      "title": ""
+      "tab1": "A játék kezdete előtt",
+      "tab2": "Az első jelölés előtt",
+      "title": "Szabályzat"
     },
     "settings": {
       "background_placeholder": "",
       "background_text": "",
-      "background_title": "",
-      "button_always": "",
-      "button_login": "",
-      "button_setup": "",
-      "button_verify": "",
-      "css_apply": "",
-      "css_confirm": "",
-      "css_confirm2": "",
-      "css_text": "",
-      "css_title": "",
-      "image_text": "",
-      "image_title": "",
+      "background_title": "Egyéni háttér",
+      "button_always": "Mindig",
+      "button_login": "Közösségi bejelentkezések",
+      "button_setup": "Varázsló indítása",
+      "button_verify": "Fiók megerősítése",
+      "css_apply": "Egyéni CSS alkalmazása",
+      "css_confirm": "Tudom mit csinálok, szeretném módosítani az alkalmazás kinézetét",
+      "css_confirm2": "Biztosan meg szeretnéd tartani az egyéni CSS módosításait? Ellenkező esetben azok automatikusan letiltásra kerülnek.",
+      "css_text": "Itt módosíthatod az alkalmazás kinézetét egy egyedi CSS-fájl URL-jének megadásával vagy a CSS-kód közvetlen beillesztésével. A Pandemonium Institute nem vállal felelősséget a más felhasználók által készített CSS-kódokért. A rosszindulatú CSS-kódok használata az alkalmazás hibás működését okozhatja!",
+      "css_title": "Egyéni CSS beállítása",
+      "image_text": "Biztosan engedélyezni szeretnéd az egyéni képeket? Egy rosszindulatú képfájl vagy szkript készítője így nyomon követheti az IP-címedet. A Pandemonium Institute nem ellenőrzi az alkalmazás más felhasználói által biztosított képeket.",
+      "image_title": "Egyéni képek engedélyezése",
       "link_to": "",
       "linked_to": "",
       "nomination": {
@@ -670,7 +670,7 @@
         "five": "Öt",
         "four": "Négy",
         "good": "Jó",
-        "minions": "Ők a Követőid",
+        "minions": "Ők a csatlósaid",
         "neutral": "Semleges",
         "no": "Nem",
         "one": "Egy",
@@ -698,7 +698,7 @@
       "selected_players": "Kiválasztott játékosok",
       "sent": "Küldött",
       "storyteller": "Mesélő|Mesélők",
-      "title": "Felébresztés {0}",
+      "title": "{0} felébresztése",
       "title_character": "Válassz egy karaktert",
       "title_player": "Válassz egy játékost",
       "title_spec": "A Mesélő felébresztette {0}:",
@@ -746,7 +746,7 @@
       "offline": "Offline",
       "st_requested": "",
       "type_player": "Játékos|{n} Játékos",
-      "type_spectator": "Megfiygelő|{n} Megfigyelő",
+      "type_spectator": "Megfigyelő|{n} Megfigyelő",
       "type_storyteller": "Mesélő|{n} Mesélő"
     },
     "verification": {
@@ -801,13 +801,13 @@
   },
   "overlays": {
     "attention": {
-      "attention": "",
-      "return": ""
+      "attention": "Figyelem!",
+      "return": "Térjetek vissza a főtérre!"
     },
     "firstnight": {
-      "bluffs": "",
-      "button_begin": "",
-      "gardener_button": "",
+      "bluffs": "Válaszd ki a 3 üres „démon blöff” jelölőt, hogy megoszd őket a démonnal.",
+      "button_begin": "Első éjszaka indítása",
+      "gardener_button": "Karakterek kiküldése",
       "gardener_text": "",
       "reminders": "",
       "title": ""
@@ -825,19 +825,19 @@
       "shuffle_title": "",
       "swap": "",
       "text": "",
-      "text2": "",
-      "title": "",
-      "warning": ""
+      "text2": "Ha már mindenki számára van hely, {0}",
+      "title": "Játékosok összegyűjtése",
+      "warning": "Ármánykőben legalább 7 játékos szükséges egy rendes játékhoz."
     },
     "nightaction": {
       "open-eyes": {
-        "button_close": "",
-        "button_open": "",
-        "button_peek": "",
-        "state_false": "",
-        "state_open-eyes": "",
-        "state_peek-eyes": "",
-        "text": "",
+        "button_close": "Becsuk",
+        "button_open": "Kinyit",
+        "button_peek": "Leskelődés",
+        "state_false": "csukva",
+        "state_open-eyes": "nyitva",
+        "state_peek-eyes": "résnyire nyitva",
+        "text": "A szemed {0} van",
         "tooltip_false": "",
         "tooltip_open-eyes": "",
         "tooltip_peek-eyes": ""
