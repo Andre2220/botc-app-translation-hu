@@ -3,11 +3,11 @@
         "account-levels": {
             "free": "Ingyenes",
             "patreon-demon": "Démon rang",
-            "patreon-minion": "Követő rang",
+            "patreon-minion": "Csatlós rang",
             "patreon-townsfolk": "Városi rang",
-            "special-free": "Ingyenes",
+            "special-free": "Tiszteletbeli",
             "special-moderator": "Moderátor",
-            "special-tpi": "TPI csapat"
+            "special-tpi": "TPI munkatárs"
         },
         "botc_online": "BOTC Online",
         "button_allow": "Engedélyez",
@@ -23,7 +23,7 @@
         "cosmetics": {
             "avatars": "Avatár|Avatárok",
             "borders": "Névtábla|Névtáblák",
-            "emotes": "Emote|Emotes"
+            "emotes": "Kéz|Kezek"
         },
         "moderation_policy": "Moderálási irányelvek",
         "privacy_policy": "Adatvédelmi irányelvek",
@@ -88,16 +88,16 @@
         "phases": {
             "day": "Első nap|{n}. nap",
             "end": "Játékok között",
-            "first_night": "Első éjjel",
+            "first_night": "Első éjszaka",
             "grim_reveal": "Grimoire felfedése",
-            "night": "Első éjjel|{n}. éjjel",
-            "other_nights": "További éjjelek",
+            "night": "Első éjszaka|{n}. éjszaka",
+            "other_nights": "További éjszakák",
             "start": "1. éjszaka előkészítése"
         },
         "player": "Játékos {0}",
         "players": "Játékosok",
         "seat": "Szék {0}",
-        "shroud": "Gyászszalag",
+        "shroud": "Halottjelölő",
         "storyteller": "Mesélő {0}",
         "storytellers": "a Mesélők",
         "token": "Jelző",
@@ -324,7 +324,7 @@
             "error_size": "Fájlméret túl nagy",
             "error_size_text": "The script you selected has a size of {0}MB, but the maximum size is {1}MB.",
             "homebrew_description": "Custom images from Homebrew scripts have been replaced with generic icons for security reasons. You can enable them through the Settings menu.",
-            "homebrew_title": "Egyedi képek kikapcsolva",
+            "homebrew_title": "Egyéni képek kikapcsolva",
             "monthly_script": "A hónap szkriptje:",
             "theme": "Téma:",
             "theme_generic": "Általános téma:",
@@ -360,7 +360,7 @@
             "tab_blocked": "Tiltott felhasználók ({0})",
             "tab_friends": "Barátok ({0})",
             "tab_requests": "Függő kérések ({0})",
-            "title": "Barátlisták"
+            "title": "Barátlista"
         },
         "npc": {
             "title": "Nem játékos karakter hozzáadása"
@@ -426,22 +426,22 @@
             "tab_character": "Available Characters",
             "tab_traveller": "Other Travellers",
             "title": "Select a {alignment} {type} {target}",
-            "title_alignment_e": "Evil",
-            "title_alignment_g": "Good",
-            "title_alignment_r": "regular",
+            "title_alignment_e": "Gonosz",
+            "title_alignment_g": "Jó",
+            "title_alignment_r": "normál",
             "title_target": "for {0}",
-            "title_type_bluff": "bluff",
-            "title_type_character": "character"
+            "title_type_bluff": "blöff",
+            "title_type_character": "karakter"
         },
         "roles": {
-            "button_distribute": "Pass out {0} characters",
-            "button_gardener": "Assign {0} characters",
-            "button_shuffle": "Shuffle",
-            "button_sort": "Sort",
-            "clear": "Clear selected characters",
-            "title": "Select the characters for {0}",
-            "title_players": "players",
-            "warning": "Warning: there are characters selected that modify the game setup! You need to account for these yourself."
+            "button_distribute": "{0} karakter kiküldése",
+            "button_gardener": "{0} karakter kiosztása",
+            "button_shuffle": "Keverés",
+            "button_sort": "Rendezés",
+            "clear": "Kiválasztott karakterek törlése",
+            "title": "Válassz karaktereket {0} számára",
+            "title_players": "játékos",
+            "warning": "Figyelem: olyan karakterek vannak kiválasztva amelyek módosítják a játék alapbeállításait. Ezek hatását neked kell figyelembe venned."
         },
         "rules": {
             "intro_part01": "A long time ago",
@@ -465,25 +465,25 @@
             "intro_part19": "To nominate a player, simply say who. For example: “I nominate Bob.” When a player is nominated, everyone votes on whether or not to execute them. The Storyteller will announce that votes are starting, and the voting animation will appear on the screen. The voting clock hand moves in a clockwise direction, and you can use the Spacebar shortcut or the UP and DOWN buttons in the centre of the screen to raise or lower your hand. If your hand is up when the clock hand gets to you, that’s a vote, and if your hand is down, that’s not a vote.",
             "intro_part20": "Each day, you may vote for as few or as many players as you wish, and whoever has the most votes is executed. This player needs a vote tally of at least 50% of the living players or no execution occurs. On a tie, neither player is executed.",
             "intro_part21": "If you die, you are still a major part of the game. You still talk, and all player cameras are still hidden during the night phase. Most importantly, you still win or lose with your team. In fact, the game is usually decided by the votes and opinions of the dead players. When you die, you lose your character ability, you may no longer nominate, and you have only one vote for the rest of the game, so use it wisely.",
-            "tab1": "Before the game starts",
-            "tab2": "Before the first nomination",
-            "title": "Rules"
+            "tab1": "A játék kezdete előtt",
+            "tab2": "Az első jelölés előtt",
+            "title": "Szabályzat"
         },
         "settings": {
             "background_placeholder": "URL to background image",
             "background_text": "Please enter a custom background URL, or leave it blank to remove a custom background.",
-            "background_title": "Custom Background",
-            "button_always": "Always",
-            "button_login": "Social Logins",
-            "button_setup": "Run the Setup",
-            "button_verify": "Verify Account",
-            "css_apply": "Apply Custom CSS Rules?",
-            "css_confirm": "I know what I'm doing, let me change the look of my app",
-            "css_confirm2": "Please confirm that you want to keep the Custom CSS changes. Otherwise, they will be disabled automatically.",
-            "css_text": "You can modify your app appearance here by entering a URL to a Custom CSS file or the CSS code itself. The Pandemonium Institute is not responsible for CSS code provided by other users. Loading malicious CSS code might break your app!",
-            "css_title": "Enter Custom CSS",
-            "image_text": "Are you sure you want to allow custom images? A malicious script file author might track your IP address this way. The Pandemonium Institute has no control over the images being provided by other users of the app.",
-            "image_title": "Allow custom images",
+            "background_title": "Egyéni háttér",
+            "button_always": "Mindig",
+            "button_login": "Közösségi bejelentkezések",
+            "button_setup": "Varázsló indítása",
+            "button_verify": "Fiók megerősítése",
+            "css_apply": "Egyéni CSS alkalmazása",
+            "css_confirm": "Tudom mit csinálok, szeretném módosítani az alkalmazás kinézetét",
+            "css_confirm2": "Biztosan meg szeretnéd tartani az egyéni CSS módosításait? Ellenkező esetben azok automatikusan letiltásra kerülnek.",
+            "css_text": "Itt módosíthatod az alkalmazás kinézetét egy egyedi CSS-fájl URL-jének megadásával vagy a CSS-kód közvetlen beillesztésével. A Pandemonium Institute nem vállal felelősséget a más felhasználók által készített CSS-kódokért. A rosszindulatú CSS-kódok használata az alkalmazás hibás működését okozhatja!",
+            "css_title": "Egyéni CSS beállítása",
+            "image_text": "Biztosan engedélyezni szeretnéd az egyéni képeket? Egy rosszindulatú képfájl vagy szkript készítője így nyomon követheti az IP-címedet. A Pandemonium Institute nem ellenőrzi az alkalmazás más felhasználói által biztosított képeket.",
+            "image_title": "Egyéni képek engedélyezése",
             "link_to": "Log in to {0}",
             "linked_to": "You are logged in to {0}",
             "nomination": {
@@ -670,7 +670,7 @@
                 "five": "Öt",
                 "four": "Négy",
                 "good": "Jó",
-                "minions": "Ők a Követőid",
+                "minions": "Ők a csatlósaid",
                 "neutral": "Semleges",
                 "no": "Nem",
                 "one": "Egy",
@@ -698,7 +698,7 @@
             "selected_players": "Kiválasztott játékosok",
             "sent": "Küldött",
             "storyteller": "Mesélő|Mesélők",
-            "title": "Felébresztés {0}",
+            "title": "{0} felébresztése",
             "title_character": "Válassz egy karaktert",
             "title_player": "Válassz egy játékost",
             "title_spec": "A Mesélő felébresztette {0}:",
@@ -746,7 +746,7 @@
             "offline": "Offline",
             "st_requested": "Storyteller Requested",
             "type_player": "Játékos|{n} Játékos",
-            "type_spectator": "Megfiygelő|{n} Megfigyelő",
+            "type_spectator": "Megfigyelő|{n} Megfigyelő",
             "type_storyteller": "Mesélő|{n} Mesélő"
         },
         "verification": {
@@ -801,13 +801,13 @@
     },
     "overlays": {
         "attention": {
-            "attention": "Attention please!",
-            "return": "Please return to the Town Square now!"
+            "attention": "Figyelem!",
+            "return": "Térjetek vissza a főtérre!"
         },
         "firstnight": {
-            "bluffs": "Select the 3 blank \"Demon Bluff\" tokens to share with the Demon.",
-            "button_begin": "Begin First Night Phase",
-            "gardener_button": "Send the Characters",
+            "bluffs": "Válaszd ki a 3 üres „démon blöff” jelölőt, hogy megoszd őket a démonnal.",
+            "button_begin": "Első éjszaka indítása",
+            "gardener_button": "Karakterek kiküldése",
             "gardener_text": "When you're happy with the character setup, {0} to your Players. Once you have handed them out, you can proceed with setting up the First Night.",
             "reminders": "Add any necessary {0} reminder tokens.",
             "title": "Prepare First Night"
@@ -825,19 +825,19 @@
             "shuffle_title": "Randomize seatings",
             "swap": "Swap with\n{0}",
             "text": "Add, shuffle or remove player seats here.",
-            "text2": "When there are enough seats for everyone, {0}",
-            "title": "Gather Your Players",
-            "warning": "You need at least 7 players for a regular game in Ravenswood Bluff."
+            "text2": "Ha már mindenki számára van hely, {0}",
+            "title": "Játékosok összegyűjtése",
+            "warning": "Ármánykőben legalább 7 játékos szükséges egy rendes játékhoz."
         },
         "nightaction": {
             "open-eyes": {
-                "button_close": "Close",
-                "button_open": "Open",
-                "button_peek": "Peek",
-                "state_false": "Closed",
-                "state_open-eyes": "Open",
-                "state_peek-eyes": "Peeking",
-                "text": "Your eyes are {0}",
+                "button_close": "Becsuk",
+                "button_open": "Kinyit",
+                "button_peek": "Leskelődés",
+                "state_false": "csukva",
+                "state_open-eyes": "nyitva",
+                "state_peek-eyes": "résnyire nyitva",
+                "text": "A szemed {0} van",
                 "tooltip_false": "You won't see any other player's night signal and you won't be able to send private text messages to anyone but your neighbours and the Storyteller.",
                 "tooltip_open-eyes": "You are able to send and receive private text messages to and from all other players, no matter where they sit. You will see the content of every night signal being sent and received, however there's a chance someone else will catch you.",
                 "tooltip_peek-eyes": "You are able to send and receive private text messages to and from all other players, no matter where they sit. You will see who is sending and receiving night signals, but not the content of those signals. You can't be caught doing that."
